@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+            #div{height:200px;width:200px;background:grey;margin:200px}
+            .aaa{background:blue;}
+            .bbb{border:10px solid black;}
+            .ccc{border:2px solid white;}
+            p{color: white;}
+        </style>
+        <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+    </head>
+    <body>
+    <div id="div" class="ccc">
+        <p>wwowowowowowo</p>
+    </div>
+    <script type="text/javascript">
+    $("#div").click(function(){
+        console.log(this);
+        $(this).addClass('aaa bbb');
+        $(this).width("8888px");
+        $(this).attr({"src":"111.txt","html":"dlddjldj"})
+        $(this).toggleClass('ccc');
+        $("p").before('aaaaaaaaaaa');
+        alert($(this).outerWidth(true))
+
+    })
+    </script>
+    </body>
+</html>

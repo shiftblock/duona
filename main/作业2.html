@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+            html,body{width:100%;height:100%;}
+            #bt0{position:absolute;}
+            #tijiao{display:inline-block;width:50px;height:50px;border-radius: 50px;color:white;background:black}
+            #qingchu{display:inline-block;width:50px;height:50px;border-radius: 50px;color:white;background:black}
+        </style>
+        <script type="text/javascript" src="jquery-1.11.0.min.js"> 
+
+        </script>
+    </head>
+    <body>
+    <input type="button" name="" value="请按我" placeholder="" id="bt0">
+    <script>
+        
+    $("#bt0").click(function(event) {
+        $("body").append("<div class='div1'>账号<input type='text'value='' placeholder='输入账号'><br />密码<input type='password'  value='' placeholder='输入输入密码'><br /><input type='button'  value='提交' id='tijiao'><input type='button'  value='清除' id='qingchu'></div>"
+            );
+    $("body").append("<div class='div2'></div>"
+            );
+
+        $(".div2").css({
+        'width':'100%',
+        'height':'100%',
+        'background':'lightblue',
+        'position':'absolute',
+        'top':'0px',
+        'opacity':'0.5'
+
+        });
+
+
+
+        $(".div1").css({"width":"400px",
+            "height":"400px",
+            "background":"grey",
+            "position":"fixed",
+            "top":"30%",
+            "left":"30%",
+            "z-index":"1000",
+            "text-align":"center",
+            "lineHeight":"60px"});
+        $("#tijiao").hover(function() {
+           $(this).css('background', 'red');
+        }, function() {
+            $(this).css('background', 'black');
+        })
+
+        $("#qingchu").hover(function() {
+           $(this).css('background', 'red');
+        }, function() {
+            $(this).css('background', 'black');
+        })
+
+
+         $("#tijiao").click(function(event) {
+        location.href="2017-04-05_093240.jpg";
+           });
+
+
+         $("#qingchu").click(function(event) {
+        $(".div2").remove();
+        $(".div1").remove();
+  });
+
+
+    });
+
+   
+    </script>
+    </body>
+</html>

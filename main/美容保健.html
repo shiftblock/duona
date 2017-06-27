@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="shopping3.css"/>
+        <link rel="stylesheet" href="shopping4.css"/>
+        <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+        <style>
+            *{ margin: 0; padding: 0}
+            html{font-size: 10px;}
+            body{font-size: 14px;font-family:"微软雅黑"; color:gray;}
+            li{text-transform: capitalize;}
+            img{border: none;vertical-align: top;}
+            a{  text-decoration:none}
+            .clear{clear: both; *display: inline;/*IE only*/}
+
+
+
+        </style>
+    </head>
+    <body>
+        <div id="all">
+            <img id="img1" src="images/head.png" width="100%" height="50px">
+            <div id="top">[登录]&nbsp&nbsp&nbsp&nbsp[注册]
+                <ul>
+                    <li><a href="javascript:;">我的多拿</a></li>
+                    <li><a href="javascript:;"><img src="images/head_gouwu.png">购物车</a></li>
+                    <li><a href="javascript:;"><img src="images/head_xing.png">收藏多拿</a></li>
+                    <li><a href="javascript:;">入驻多拿</a></li>
+                    <li><a href="javascript:;" style="margin-right:40px;">帮助</a></li>
+                </ul>
+                <script type="text/javascript">
+            $("#head>li>a").hover(function() {
+                $(this).parent().siblings().children().removeClass('active');
+                $(this).addClass('active');
+            }, function() {
+                $(this).removeClass('active')
+            });
+            </script>
+            </div>
+            <div id="content-1">
+                <span>线下返利第一站</span>
+                <div id="dtxt"><input type="text"></div>
+                <img src="images/logo_2.png">
+            </div>
+            <ul id="head">
+                <span>全部代金券</span>
+                <li><a href="javascript:;">首页</a></li>
+                <li><a href="javascript:;">餐饮美食</a></li>
+                <li><a href="javascript:;">休闲娱乐</a></li>
+                <li><a class="active" href="javascript:;">美容保健</a></li>
+                <li><a href="javascript:;">生活服务</a></li>
+            </ul>
+            <div id="content-2">
+                <div id="c2-top">
+                    <h3>品牌索引</h3>
+                    <div class="ct-left">
+                        <p>热门商家</p>
+                        <span>自然美（彩云居）美容养生馆 海豚湾美甲 陕川味道 博蜜思 芊艺菜</span>
+                        <hr/>
+                        <p>按字母排序</p>
+                        <span>a-b-c-d-e-f-g-h-i-j-k-l-m-n-o-p-q-r-s-t-u-v-w-x-y-z</span>
+                    </div>
+                    <ul class="ct-right">
+                        <li><span>分类:</span><a class="active" href="##">全部</a><a href="##">化妆品（6）</a><a href="##">美发（28）</a><a href="##">美甲（31）</a><a href="##">美容spa（103）</a><a href="##">养生健身（11）</a><a href="##">瑜伽（3）</a></li>
+                        <li><span>全部:</span><a class="active" href="##">区域</a><a href="##">海淀</a><a href="##">朝阳</a><a href="##">通州</a><a href="##">石景山</a><a href="##">顺义</a><a href="##">北京</a></li>
+                        <li><span>价格:</span><a class="active" href="##">50以下</a><a href="##">50-100元</a><a href="##">100-200元</a><a href="##">200-300元</a><a href="##">300-400元</a><a href="##">400-500元</a><a href="##">500-600元</a></li>
+                        <button>默认排序</button><button>销量</button><button>面额</button><button>发布时间</button>
+                    </ul>
+                </div>
+                
+            </div>
+            <ul id="content-3">
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health1.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health2.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health3.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health4.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health5.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health1.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health2.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health3.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health4.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health5.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                
+                
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health1.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health2.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health3.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health4.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health5.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                
+                
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health1.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health2.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health3.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health4.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health5.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health1.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health2.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health3.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health4.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health5.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                
+                
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health1.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health2.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health3.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health4.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health5.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                
+                
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health1.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health2.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health3.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health4.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp1234<span>剩余：321</span>
+                    <img src="images/health5.jpg" width="100%">
+                    &nbsp&nbsp自然美（彩云居）美容养生...
+                    <p>面值：<font size="4" color="red">230</font>元<strong>返利3.2元</strong></p>
+                </li>
+                
+                
+                <div id="content_foot">
+                    <span>《</span>
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>》</span>
+                </div>
+            </ul>
+            
+            
+    
+            
+            
+            
+            
+            <div id="content-7">
+                        
+                    <div class="c2-1" style="margin-left:50px;"><img src="images/code.png" height="95%"/></div>
+                    <div class="c2-1"><h2>关注多拿网微博</h2><img src="images/xinlang.png"><span>新浪微博</span></div>
+                    <div class="c2-2">
+                        <ul>
+                            <li><a href="javascript:;"><strong>公司信息</strong></a></li>
+                            <li><a href="javascript:;">联系我们</a></li>
+                            <li><a href="javascript:;">关于我们</a></li>
+                            <li><a href="javascript:;">加入我们</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="javascript:;"><strong>商务合作</strong></a></li>
+                            <li><a href="javascript:;">友情链接</a></li>
+                            <li><a href="javascript:;">商家入驻</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="javascript:;"><strong>玩转多玩网</strong></a></li>
+                            <li><a href="javascript:;">免单消费</a></li>
+                            <li><a href="javascript:;">返利优惠</a></li>
+                            <li><a href="javascript:;">意见反馈</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="javascript:;"><strong>用户帮助</strong></a></li>
+                            <li><a href="javascript:;">多拿保障</a></li>
+                            <li><a href="javascript:;">常见问题</a></li>
+                            <li><a href="javascript:;">隐私声明</a></li>
+                            <li><a href="javascript:;">背景协议</a></li>
+                        </ul>
+                    </div>
+                    <img src="images/phone.png" style="margin-top:10px;margin-left:20px;">
+                <div id="mind">
+                <font color="black" size="2"><strong>友情链接：</strong></font>
+                <a href="javascript:;">六碳网</a> <a href="javascript:;">企业微电影</a> <a href="javascript:;">惠爱妮品牌优惠网</a> 
+                <a href="javascript:;">汝影</a> <a href="javascript:;">电子商务</a> <a href="javascript:;">鞋子批发</a> 
+                <a href="javascript:;">摄影团购</a> <a href="javascript:;">创意商品</a> <a href="javascript:;">简单网</a> 
+                <a href="javascript:;">创意礼品</a> <a href="javascript:;">水晶饰品批发</a> <a href="javascript:;">女式包</a> 
+                <a href="javascript:;">藤家具</a> <a href="javascript:;">中老年服装</a> <a href="javascript:;">网购优惠券</a> 
+                <a href="javascript:;">OA</a> <a href="javascript:;">第一企业</a> <a href="javascript:;">水晶</a>
+                <a href="javascript:;">女装加盟</a> <a href="javascript:;">美发网</a> <br/><a style="margin-left:70px;" href="javascript:;">the face shop</a> 
+                <a href="javascript:;">便宜购电子商城</a> <a href="javascript:;">优惠券</a> <a href="javascript:;">淘牛品</a> 
+                <a href="javascript:;">微电影排行榜</a> <a href="javascript:;">123美颜网</a> <a href="javascript:;">上海打折网</a> 
+                <a href="javascript:;">北京打折网</a> <a href="javascript:;">广州打折网</a> <a href="javascript:;">九块邮</a> 
+                <a href="javascript:;">天天惠商城</a> <a href="javascript:;">雅典表</a> <a href="javascript:;">更多 >></a>
+                </div> 
+                <div id="foot">
+                    <img src="images/logo_3.png"><br/><br/>
+                    <p>版权所有 <font color="red">多拿网</font> Copyright @ 2012 All Right Reserved.ICP经营许可证号：粤B2-20130162<img src="images/baidu.png"></p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp优惠券 代金券 优惠券的官方网站
+                </div>
+                        
+                
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

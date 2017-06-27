@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            $.ajax({
+                url: 'information.json',
+                type: 'GET',
+                dataType: 'json',
+                data:"",
+            })
+            .done(function(data) {
+                console.log("success");
+                console.log(data);
+            })
+            .fail(function() {
+                console.log("error");
+            })
+            .always(function() {
+                console.log("complete");
+            });
+            
+        </script>
+    </body>
+</html>

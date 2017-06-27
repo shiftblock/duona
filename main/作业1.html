@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+            html,body{width:100%;height:100%}
+            body{background-size:cover}
+            div{zIndex:4000;}
+        </style>
+        <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+    </head>
+    <body>
+    <div id="div">我需要一个蓝色的背景</div>
+    <script type="text/javascript">
+    var aaa = 0 ;
+
+   
+    $("#div").click(function(ev) {
+        var oev=event||ev;
+        oev.cancelBubble=true;
+        
+
+       $("body").css({'background-color':'blue'});
+    });
+    
+
+    $("body").click(function(event) {
+
+
+       aaa = "url("+Math.round(Math.random()*5)+".jpg)";
+       
+       $("body").css({'background':aaa , 'background-size':'cover'});
+    });
+    
+    </script>
+    </body>
+</html>

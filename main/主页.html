@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>多拿网</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    <script src="http://cache.amap.com/lbs/static/es5.min.js"></script>
+    <script src="http://webapi.amap.com/maps?v=1.3&key=f0a09f1794017bfbf149543be2b57b8c"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+ </head>
+ <body>
+	<header>
+		<img src="images/head.png" >
+		<div class="container">
+			<a href="javascript:;" class="login">[登录]</a>
+			<script>
+				var ologin = document.getElementsByClassName('login')[0];
+				ologin.onclick=function(){
+					location.href = "../4.5 邹子霖/静态页面-注册.html";
+				}
+			</script>
+			<a href="../4.5 邹子霖/静态页面-登陆.html" class="register">[注册]</a>
+			<ul>
+				<li><a href="###">我的多拿</a></li>
+				<li><a class="shop" href="###">购物车</a></li>
+				<li><a class="collect" href="###">收藏多拿</a></li>
+				<li><a href="###">入驻多拿</a></li>
+				<li><a href="###">帮助</a></li>
+			</ul>
+		</div>
+	</header>
+	<div class="main">
+		<div class="main-head">
+			<div class="container nav">
+				<img src="images/logo.png">
+				<div class="n1">线下返利第一站</div>
+				<div class="search">
+					<div class="search-text">
+						<input id="txt" type="text" value="" placeholder="搜索你想要的代金券..."></input>
+						<input id="search" type="button" value="1搜索" ></input>
+						<div class="hide-text"></div>
+					</div>
+					<ul>
+						<li>LEVELA发廊</li>
+						<li>奈莉尔美容院</li>
+						<li>花之生活馆</li>
+					</ul>
+				</div>
+				<img src="images/logo_2.png">
+			</div>
+		</div>
+		<nav>
+			<ul>
+				<li>全部代金券</li>
+				<li class="active" onclick="check()">首页</li>
+				<li >餐饮美食</li>
+				<li>休闲娱乐</li>
+				<li>美容保健</li>
+				<li>生活服务</li>
+			</ul>
+      <script type="text/javascript">
+        function check() {
+          console.log(this.event.target.innerHTML)
+        }
+      </script>
+			<img src="images/xiaohouzi.png">
+		</nav>
+		<div class="container">
+			<div class="left-side">
+				<ul>
+					<li>
+						<h3>餐饮美食</h3>
+						<a href="##">小吃快餐</a>、
+						<a class="hot" href="##">蛋糕甜品</a>、
+						<a href="##">西餐</a>、
+						<a class="hot" href="##">日韩料理</a>、
+						<a href="##">地方菜</a>、
+						<a class="hot" href="##">海鲜</a>、
+						<a href="##">烧烤</a>
+					</li>
+					<li>
+						<h3>休闲娱乐</h3>
+						<a href="##">景点/郊游</a>、
+						<a class="hot" href="##">摄影</a>、
+						<a href="##">运动/健身</a>、
+						<a class="hot" href="##">棋牌</a>、
+						<a href="##">桌球</a>、
+						<a class="hot" href="##">酒店</a>
+					</li>
+					<li>
+						<h3>美容保健</h3>
+						<a href="##">美发</a>、
+						<a class="hot" href="##">化妆品</a>、
+						<a href="##">瑜伽</a>、
+						<a class="hot" href="##">养生健身</a>、
+						<a href="##">美甲</a>、
+						<a class="hot" href="##">美容spa</a>、
+						<a href="##">足疗按摩</a>
+					</li>
+					<li>
+						<h3>生活服务</h3>
+						<a href="##">汽车养护</a>、
+						<a class="hot" href="##">健康护理</a>、
+						<a href="##">服装箱包</a>、
+						<a class="hot" href="##">电子产品</a>
+					</li>
+				</ul>
+			</div>
+			<div class="right-side">
+				<div class="lunbo">
+					<a href="###">
+						<img src="images/1.jpg">
+
+					</a>
+					<a href="###">
+						<img src="images/2.jpg">
+					</a>
+					<a href="###s">
+						<img src="images/3.jpg">
+					</a>
+				</div>
+				<ul class="lunbo-btn">
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<section>
+		<div class="container">
+			<div class="recommand-left">
+				<div class="">
+					<span class="hot">小多推荐</span>&nbsp;Duona Sale
+					<span class="more hot">more</span>
+				</div>
+				<ul class="host-goods">
+					<li>
+						<span>01</span>
+						<div style="height:150px">
+							<img src="images/hot1.jpg" alt="" />
+						</div>
+						<div class="grey">自然美（财源居）美...</div>
+						<div>还剩余<span class="hot">452</span>张</div>
+					</li>
+					<li>
+						<span>02</span><div style="height:150px">
+						<img src="images/hot2.jpg" alt="" /></div>
+						<div class="grey">自然美（财源居）美...</div>
+						<div>还剩余<span class="hot">452</span>张</div>
+					</li>
+					<li>
+						<span>03</span><div style="height:150px">
+						<img src="images/hot3.jpg" alt="" /></div>
+						<div class="grey">自然美（财源居）美...</div>
+						<div>还剩余<span class="hot">452</span>张</div>
+					</li>
+					<li>
+						<span>04</span><div style="height:150px">
+						<img src="images/hot4.jpg" alt="" /></div>
+						<div class="grey">自然美（财源居）美...</div>
+						<div>还剩余<span class="hot">452</span>张</div>
+					</li>
+					<li>
+						<span>05</span><div style="height:150px">
+						<img src="images/hot5.jpg" alt="" /></div>
+						<div class="grey">自然美（财源居）美...</div>
+						<div>还剩余<span class="hot">452</span>张</div>
+					</li>
+				</ul>
+			</div>
+			<div class="recommand-right">
+				<img src="images/hot6.png" alt="" />
+				<div id="ccc" style="height:300px;width:100%"></div>
+			</div>
+		</div>
+		<div class="container c1">
+			<div class="goods-title">
+				<span class="t1">餐饮美食</span>
+				<span class="ccc">food and Drink</span>
+				<span class="list hot">热门推介：</span>
+				<ul class="short">
+					<li>小吃快餐</li>
+					<li class="hot">蛋糕甜品</li>
+					<li>西餐</li>
+					<li class="hot">日韩料理</li>
+					<li>地方菜</li>
+					<li class="hot">海鲜</li>
+					<li>烧烤</li>
+					<li class="hot">火锅</li>
+					<li>自助餐</li>
+				</ul>
+				<span class="more">更多></span>
+			</div>
+			<ul class="goods-item">
+				<li class="liaaa">
+				  <!--  <div class="mb"><span>售价:100元</span></div> -->
+					<span class="love">2598</span>
+					<span class="remain">剩余：861</span>
+					<img src="images/main_img1.jpg" alt="" />
+					<h3>湘妃楼消费满100元减15元</h3>
+					<div class="mone">
+						<span class="value">面值：<span class="hot">15</span>元</span>
+						<span class="remains">返利6.8元</span>
+					</div>
+				</li>
+				<li class="liaaa">
+					<span class="love">2598</span>
+					<span class="remain">剩余：861</span>
+					<img src="images/main_img2.jpg" alt="" />
+					<h3>湘妃楼消费满100元减15元</h3>
+					<div class="mone">
+						<span class="value">面值：<span class="hot">15</span>元</span>
+						<span class="remains">返利6.8元</span>
+					</div>
+				</li>
+				<li class="liaaa">
+					<span class="love">2598</span>
+					<span class="remain">剩余：861</span>
+					<img src="images/main_img3.jpg" alt="" />
+					<h3>湘妃楼消费满100元减15元</h3>
+					<div class="mone">
+						<span class="value">面值：<span class="hot">15</span>元</span>
+						<span class="remains">返利6.8元</span>
+					</div>
+				</li>
+				<li class="liaaa">
+					<span class="love">2598</span>
+					<span class="remain">剩余：861</span>
+					<img src="images/main_img4.jpg" alt="" />
+					<h3>湘妃楼消费满100元减15元</h3>
+					<div class="mone">
+						<span class="value">面值：<span class="hot">15</span>元</span>
+						<span class="remains">返利6.8元</span>
+					</div>
+				</li>
+				<li class="gd">
+					<h3>餐饮美食·排行榜	</h3>
+					<div class="yello">[2元]印度餐厅(满100元可用)</div>
+
+					<div class="top">
+						<div><img src="images/hot4.jpg" height="0px" width="150px" alt="" /><br />[1089元]亲亲贝比儿童摄影宝贝套装</div>
+						<div><img src="images/hot4.jpg" height="0px" width="150px" alt="" /><br />[1089元]亲亲贝比儿童摄影宝贝套装</div>
+						<div><img src="images/hot4.jpg" height="0px" width="150px" alt="" /><br />[1089元]亲亲贝比儿童摄影宝贝套装</div>
+						<div><img src="images/hot4.jpg" height="0px" width="150px" alt="" /><br />[1089元]亲亲贝比儿童摄影宝贝套装</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<div class="container">
+			<div class="goods-title">
+				<span class="t1">餐饮美食</span>
+				<span class="ccc">food and Drink</span>
+				<span class="list hot">热门推介：</span>
+				<ul class="short">
+					<li>小吃快餐</li>
+					<li class="hot">蛋糕甜品</li>
+					<li>西餐</li>
+					<li class="hot">日韩料理</li>
+					<li>地方菜</li>
+					<li class="hot">海鲜</li>
+					<li>烧烤</li>
+					<li class="hot">火锅</li>
+					<li>自助餐</li>
+				</ul>
+				<span class="more">更多></span>
+			</div>
+			<ul class="goods-item">
+				<li class="liaaa">
+					<span class="love">2598</span>
+					<span class="remain">剩余：861</span>
+					<img src="images/main_img1.jpg" alt="" />
+					<h3>湘妃楼消费满100元减15元</h3>
+					<div class="mone">
+						<span class="value">面值：<span class="hot">15</span>元</span>
+						<span class="remains">返利6.8元</span>
+					</div>
+				</li>
+				<li class="liaaa">
+					<span class="love">2598</span>
+					<span class="remain">剩余：861</span>
+					<img src="images/main_img2.jpg" alt="" />
+					<h3>湘妃楼消费满100元减15元</h3>
+					<div class="mone">
+						<span class="value">面值：<span class="hot">15</span>元</span>
+						<span class="remains">返利6.8元</span>
+					</div>
+				</li>
+				<li class="liaaa">
+					<span class="love">2598</span>
+					<span class="remain">剩余：861</span>
+					<img src="images/main_img3.jpg" alt="" />
+					<h3>湘妃楼消费满100元减15元</h3>
+					<div class="mone">
+						<span class="value">面值：<span class="hot">15</span>元</span>
+						<span class="remains">返利6.8元</span>
+					</div>
+				</li>
+				<li class="liaaa">
+					<span class="love">2598</span>
+					<span class="remain">剩余：861</span>
+					<img src="images/main_img4.jpg" alt="" />
+					<h3>湘妃楼消费满100元减15元</h3>
+					<div class="mone">
+						<span class="value">面值：<span class="hot">15</span>元</span>
+						<span class="remains">返利6.8元</span>
+					</div>
+				</li>
+				<li class="gd">
+					<h3>餐饮美食·排行榜	</h3>
+					<div class="yello">[2元]印度餐厅(满100元可用)</div>
+
+					<div class="top">
+						<div><img src="images/hot4.jpg" height="0px" width="150px" alt="" /><br />[1089元]亲亲贝比儿童摄影宝贝套装</div>
+						<div><img src="images/hot4.jpg" height="0px" width="150px" alt="" /><br />[1089元]亲亲贝比儿童摄影宝贝套装</div>
+						<div><img src="images/hot4.jpg" height="0px" width="150px" alt="" /><br />[1089元]亲亲贝比儿童摄影宝贝套装</div>
+						<div><img src="images/hot4.jpg" height="0px" width="150px" alt="" /><br />[1089元]亲亲贝比儿童摄影宝贝套装</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<div class="container">
+			<div class="goods-title">
+				<span class="t1">餐饮美食</span>
+				<span class="ccc">food and Drink</span>
+				<span class="list hot">热门推介：</span>
+				<ul class="short">
+					<li>小吃快餐</li>
+					<li class="hot">蛋糕甜品</li>
+					<li>西餐</li>
+					<li class="hot">日韩料理</li>
+					<li>地方菜</li>
+					<li class="hot">海鲜</li>
+					<li>烧烤</li>
+					<li class="hot">火锅</li>
+					<li>自助餐</li>
+				</ul>
+				<span class="more">更多></span>
+			</div>
+			<ul class="goods-item">
+				<li class="liaaa">
+					<span class="love">2598</span>
+					<span class="remain">剩余：861</span>
+					<img src="images/main_img1.jpg" alt="" />
+					<h3>湘妃楼消费满100元减15元</h3>
+					<div class="mone">
+						<span class="value">面值：<span class="hot">15</span>元</span>
+						<span class="remains">返利6.8元</span>
+					</div>
+				</li>
+				<li class="liaaa">
+					<span class="love">2598</span>
+					<span class="remain">剩余：861</span>
+					<img src="images/main_img2.jpg" alt="" />
+					<h3>湘妃楼消费满100元减15元</h3>
+					<div class="mone">
+						<span class="value">面值：<span class="hot">15</span>元</span>
+						<span class="remains">返利6.8元</span>
+					</div>
+				</li>
+				<li class="liaaa">
+					<span class="love">2598</span>
+					<span class="remain">剩余：861</span>
+					<img src="images/main_img3.jpg" alt="" />
+					<h3>湘妃楼消费满100元减15元</h3>
+					<div class="mone">
+						<span class="value">面值：<span class="hot">15</span>元</span>
+						<span class="remains">返利6.8元</span>
+					</div>
+				</li>
+				<li class="liaaa">
+					<span class="love">2598</span>
+					<span class="remain">剩余：861</span>
+					<img src="images/main_img4.jpg" alt="" />
+					<h3>湘妃楼消费满100元减15元</h3>
+					<div class="mone">
+						<span class="value">面值：<span class="hot">15</span>元</span>
+						<span class="remains">返利6.8元</span>
+					</div>
+				</li>
+				<li class="gd">
+					<h3>餐饮美食·排行榜	</h3>
+					<div class="yello">[2元]印度餐厅(满100元可用)</div>
+
+					<div class="top">
+						<div><img src="images/hot4.jpg" height="0px" width="150px" alt="" /><br />[1089元]亲亲贝比儿童摄影宝贝套装</div>
+						<div><img src="images/hot4.jpg" height="0px" width="150px" alt="" /><br />[1089元]亲亲贝比儿童摄影宝贝套装</div>
+						<div><img src="images/hot4.jpg" height="0px" width="150px" alt="" /><br />[1089元]亲亲贝比儿童摄影宝贝套装</div>
+						<div><img src="images/hot4.jpg" height="0px" width="150px" alt="" /><br />[1089元]亲亲贝比儿童摄影宝贝套装</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<div class="container">
+			<div class="goods-title">
+				<span class="t1">餐饮美食</span>
+				<span class="ccc">food and Drink</span>
+				<span class="list hot">热门推介：</span>
+				<ul class="short">
+					<li>小吃快餐</li>
+					<li class="hot">蛋糕甜品</li>
+					<li>西餐</li>
+					<li class="hot">日韩料理</li>
+					<li>地方菜</li>
+					<li class="hot">海鲜</li>
+					<li>烧烤</li>
+					<li class="hot">火锅</li>
+					<li>自助餐</li>
+				</ul>
+				<span class="more">更多></span>
+			</div>
+			<ul class="goods-item">
+				<li class="liaaa">
+					<span class="love">2598</span>
+					<span class="remain">剩余：861</span>
+					<img src="images/main_img1.jpg" alt="" />
+					<h3>湘妃楼消费满100元减15元</h3>
+					<div class="mone">
+						<span class="value">面值：<span class="hot">15</span>元</span>
+						<span class="remains">返利6.8元</span>
+					</div>
+				</li>
+				<li class="liaaa">
+					<span class="love">2598</span>
+					<span class="remain">剩余：861</span>
+					<img src="images/main_img2.jpg" alt="" />
+					<h3>湘妃楼消费满100元减15元</h3>
+					<div class="mone">
+						<span class="value">面值：<span class="hot">15</span>元</span>
+						<span class="remains">返利6.8元</span>
+					</div>
+				</li>
+				<li class="liaaa">
+					<span class="love">2598</span>
+					<span class="remain">剩余：861</span>
+					<img src="images/main_img3.jpg" alt="" />
+					<h3>湘妃楼消费满100元减15元</h3>
+					<div class="mone">
+						<span class="value">面值：<span class="hot">15</span>元</span>
+						<span class="remains">返利6.8元</span>
+					</div>
+				</li>
+				<li class="liaaa">
+					<span class="love">2598</span>
+					<span class="remain">剩余：861</span>
+					<img src="images/main_img4.jpg" alt="" />
+					<h3>湘妃楼消费满100元减15元</h3>
+					<div class="mone">
+						<span class="value">面值：<span class="hot">15</span>元</span>
+						<span class="remains">返利6.8元</span>
+					</div>
+				</li>
+				<li class="gd">
+					<h3>餐饮美食·排行榜	</h3>
+					<div class="yello">[2元]印度餐厅(满100元可用)</div>
+
+					<div class="top">
+						<div><img src="images/hot4.jpg" height="0px" width="150px" alt="" /><br />[1089元]亲亲贝比儿童摄影宝贝套装</div>
+						<div><img src="images/hot4.jpg" height="0px" width="150px" alt="" /><br />[1089元]亲亲贝比儿童摄影宝贝套装</div>
+						<div><img src="images/hot4.jpg" height="0px" width="150px" alt="" /><br />[1089元]亲亲贝比儿童摄影宝贝套装</div>
+						<div><img src="images/hot4.jpg" height="0px" width="150px" alt="" /><br />[1089元]亲亲贝比儿童摄影宝贝套装</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="container">
+			<ul class="offer">
+				<li>
+					<h3>多拿网<a href="###">优惠券官方网站</a></h3>
+					<div class="offer-item">
+						<ol>
+							<li>认识下品牌资源的整合的六碳网</li>
+							<li>认识下品牌资源的整合的六碳网</li>
+							<li>认识下品牌资源的整合的六碳网</li>
+							<li>认识下品牌资源的整合的六碳网</li>
+							<li>认识下品牌资源的整合的六碳网</li>
+						</ol>
+						<span class="more">more></span>
+					</div>
+				</li>
+				<li>
+					<h3>代金券<a href="###">多拿网随机查询</a></h3><div class="offer-item">
+						<ol>
+							<li>认识下品牌资源的整合的六碳网</li>
+							<li>认识下品牌资源的整合的六碳网</li>
+							<li>认识下品牌资源的整合的六碳网</li>
+							<li>认识下品牌资源的整合的六碳网</li>
+							<li>认识下品牌资源的整合的六碳网</li>
+						</ol>
+						<span class="more">more></span>
+					</div>
+				</li>
+				<li>
+					<h3>优惠券<a href="###">多拿网最新查询</a></h3>
+					<div class="offer-item">
+						<ol>
+							<li>认识下品牌资源的整合的六碳网</li>
+							<li>认识下品牌资源的整合的六碳网</li>
+							<li>认识下品牌资源的整合的六碳网</li>
+							<li>认识下品牌资源的整合的六碳网</li>
+							<li>认识下品牌资源的整合的六碳网</li>
+						</ol>
+						<span class="more">more></span>
+					</div>
+				</li>
+			</ul>
+			<img src="images/partner.png" alt="" />
+		</div>
+	</section>
+	<footer>
+		<ul>
+            <li>
+                <img src="images/code.png" height="157" width="127" alt="" />
+            </li>
+            <li>
+                <div>关注多拿网微博</div>
+                <div class="xinlang">
+                    <i></i><span>新浪微博</span>
+                </div>
+
+            </li>
+            <li class="contact">
+                <ul>
+                    <li class="ipt">公司信息</li>
+                    <li>联系我们</li>
+                    <li>关于我们</li>
+                    <li>加入我们</li>
+                </ul>
+                <ul >
+                    <li class="ipt">商务合作</li>
+                    <li>友情链接</li>
+                    <li>商家入驻</li>
+                </ul>
+                <ul>
+                    <li class="ipt">玩转多拿网</li>
+                    <li><a href="##">免单消费</a></li>
+                    <li><a href="##">返利优惠</a></li>
+                    <li><a href="##">意见反馈</a></li>
+                </ul>
+                <ul>
+                    <li class="ipt"><a href="##">用户帮助</a></li>
+                    <li><a href="##">多拿保障</a></li>
+                    <li><a href="##">常见问题</a></li>
+                    <li><a href="##">隐私声明</a></li>
+                    <li><a href="##">用户协议</a></li>
+                </ul>
+            </li>
+            <li>
+                <img src="images/phone.png" height="185" width="217" alt="" />
+            </li>
+        </ul>
+        <div>
+            <img src="images/logo_3.png" height="55" width="115" alt="" />
+        </div>
+        <div class="ban">版权所有 多拿网 Copyright 2012 All Rights Reserved.ICP经营许可证号：粤B2-20130162<img src="images/baidu.png" height="20" width="20"> 优惠券 代金券 优惠券的官方网站</div>
+	</footer>
+
+	<div class="assss"></div>
+	<script src="jquery-1.11.0.min.js">
+	</script>
+	<script>
+
+	$(".top div").hover(function() {
+		$(this).children().stop().animate({'height':'130px'}, 200);
+
+	}, function() {
+		$(this).children().stop().animate({'height':'0px'}, 200);
+	});
+	$(".goods-item .liaaa").hover(function() {
+		$(this).append("<div class='mb'><span class='mbz'>售价:100元</span></div>");
+		$(".mbz").animate({'line-height': '200px'}, 500);
+	}, function() {
+		$(".mb").remove();
+	});
+	    var map = new AMap.Map('ccc', {
+        resizeEnable: true,
+        zoom:100,
+        center: [116.306784,39.976086]
+    })
+	    $('.host-goods li img').hover(function() {
+	    	$(this).animate({'padding':"0px"}, 10).siblings().css('padding', '6px');
+
+	    }, function() {
+	    	$(this).css('padding', '6px');
+	    });
+		$(function(){
+			var imgwidth=$('.lunbo img').outerWidth();
+			var oclo=$('.lunbo a').first().clone();
+
+			$('.lunbo').append(oclo);
+			var len=$('.lunbo img').size();
+			$('.lunbo').css('width',imgwidth*len);
+			var index=1;
+			var timer=setInterval(function(){
+				if(index==len){
+					index=1;
+					$('.lunbo').css({'left':-imgwidth*index});
+				}
+				else{
+					$('.lunbo').animate({'left':-imgwidth*index},500);
+					index++;
+				}
+
+
+			},3000);
+			console.log(len);
+			console.log($('.t1').size());
+			$('.t1').eq(1).css({'color':'#4D89EC','background':'url(images/main_music.png) no-repeat'});
+			$('.t1').eq(2).css({'color':'#E73BAC','background':'url(images/main_cuifeng.png) no-repeat'});
+			$('.t1').eq(3).css({'color':'#47A522','background':'url(images/main_house.png) no-repeat'});
+			$('.goods-title').eq(1).css({'border-bottom-color':'#4D89EC'});
+			$('.goods-title').eq(2).css({'border-bottom-color':'#E73BAC'});
+			$('.goods-title').eq(3).css({'border-bottom-color':'#47A522'});
+			$(".goods-title .more").eq(0).css('color','#DBB10F');
+			$(".goods-title .more").eq(1).css('color','#4D89EC');
+			$(".goods-title .more").eq(2).css('color','#E73BAC');
+			$(".goods-title .more").eq(3).css('color','#47A522');
+			$(".yello").eq(1).css('background-color','#4D89EC');
+			$(".yello").eq(2).css('background-color','#E73BAC');
+			$(".yello").eq(3).css('background-color','#47A522');
+
+
+		});
+		//搜索框遍历
+		if($('#txt').val()!=''){
+					console.log($('#txt').value);
+					$('.hide-text').css({'display':'block'});
+				}
+				else{
+					$('.hide-text').css({'display':'none'});
+				}
+		$('#txt').focus(function(){
+				if($('#txt').val()!=''){
+					console.log($('#txt').value);
+					$('.hide-text').css({'display':'block'});
+				}
+				else{
+					$('.hide-text').css({'display':'none'});
+				}
+			});
+		//ajax
+
+
+
+    	 $('#txt').blur(function(event) {
+			/* Act on the event */
+			console.log(123);
+			$.ajax({
+                //url: 'json2.json',
+				url:'https://suggest.taobao.com/sug?code=utf-8',
+                type: 'GET',
+                dataType: 'jsonp',
+				//dataType: 'json',
+                data:{'q':$('#txt').val()},
+            })
+			.done(function(data) {
+            	console.log(data.result);
+            	$('.hide-text').empty();
+			$.each(data.result, function(index, val) {
+                  	 /* iterate through array or object */
+
+                  	 $('.hide-text').append('<span>'+val[0]+"</span><br/>");
+
+
+                  });
+            })
+            .fail(function() {
+            	console.log("error");
+            })
+            .always(function() {
+            	console.log("complete");
+            });
+
+		});
+
+	</script>
+
+ </body>
+</html>

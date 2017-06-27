@@ -1,0 +1,65 @@
+#all{width:100%;height:auto;border:0px solid black;}
+#top{width:97%;height:25px;border:0px solid black;float:left;line-height:25px;background-color:#EEEEEE;padding-left:3%;}
+#top ul{float:right;}
+#top ul li{list-style: none;width:100px;float:left;text-align:center;}
+#top ul li a{border-right:1px solid gray;color:gray;padding:3px 10px;}
+#top img{position:relative;top:3px;left:-5px;}
+#content-1{width:100%;height:100px;background-image:url(images/logo.png);background-repeat:no-repeat;background-position:40px 20px;;float:left;border:0px solid black;}
+#content-1 span{display:inline-block;height:60px;border-left:1px solid black;padding-left:20px;margin-left:200px;margin-top:20px;line-height:60px;font-size:18px;color:black;}
+#dtxt{width:300px;height:30px;border-radius:15px;background:red;position:relative;left:330px;top:-45px;border-width:none;border-color:red;margin-left:200px;background-image:url(images/search.png);background-repeat:no-repeat;background-position:270px 5px;}
+#dtxt input{width:250px;height:28px;margin-top:1px;margin-left:1px;border:none;border-radius:15px 0 0 15px;}
+#content-1 img{margin-top:25px;margin-left:80px;float:right;margin-top:-80px;margin-right:300px;}
+#head{display:block;width:100%;float:left;padding-top:15px;padding-bottom:15px;background-color:#E12113;}
+#head span{float:left;font-size:20px;margin-left:80px;color:white;}
+#head li{list-style: none;float:left;margin-left:40px;}
+#head li a{font-size:20px;color:white;margin-left:50px;}
+.add{
+	width: 15px;
+	height: 10px;
+	margin-bottom: 5px;
+	position: absolute;
+	text-align: center;
+	line-height: 15px;
+	color: black;
+	border: 1px solid #aaa;
+}
+.g2_jishu2 {
+	top: 3px;
+}
+
+.g2_jishu3 {
+	top: 18px;
+	margin-top: 3px;
+	transform: rotate(180deg);
+}
+.g2_jishu {
+	position: relative;
+}
+
+
+#content-7{width:100%;height:410px;border-top:5px solid red;float:left;background-color:#EEEEEE;}
+
+
+.c2-1{width:190px;height:190px;border-right:1px solid gray;float:left;margin-top:10px;text-align:center;}
+.c2-1 img{margin-top:5px;}
+.c2-1 h2{font-size:18px;}
+.c2-1 span{color:black;font-size:16px;line-height:35px;}
+.c2-2{width:550px;height:190px;border-right:1px solid gray;float:left;margin-top:10px;}
+.c2-2 ul{float:left;margin-left:50px;}
+.c2-2 li{list-style-type:none;line-height:30px;}
+.c2-2 li a{font-size:16px;color:black;}
+
+#mind{width:100%;height:50px;border:0px solid black;float:left;}
+#foot{width:100%;height:138px;border:0px solid black;float:left;text-align:center;padding-top:20px;}
+#foot p{display:inline-block;color:black;}
+#mind a{color:gray;}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>登录</title>
+        <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+        <style type="text/css">
+            a{text-decoration:none;}
+        *{margin:0;padding:0;}
+            html,body{width:1263px;height:1192px;}
+            #menu{width:100%;height:5%;background:red;color:white;font-family: 楷体;}
+            #menu ul{list-style-type: none;padding-left:60%;}
+            #menu ul li{float:left;border-radius: 20px;text-align: center;margin-left: 10%;margin-top: 4%;padding:1%;color:white;font-weight: bold;}
+            #menu ul li:hover{background:white;color: red;border:1px solid black;}
+            .active{background:white;color: red;border:1px solid black;}
+            #content{width:100%;height:75%;background-size: cover;background-image:url(作业/images/login.jpg);}
+            #content img{position:absolute;top:10%;left:3%;}
+            h1{color:white;letter-spacing:10px;position:absolute;left:10%;top: 20%;font-size: 50px;}
+            #content ul{color:white;width:40%;height:70%;position:absolute;left:10%;top:35%;}
+            #content ul li{font-size: 20px;font-family: 微软雅黑;line-height:200%;text-shadow: 5px 5px 5px black ;}
+            .zhuce{
+                width:30%;
+                height:60%;
+                background:rgba(255, 255, 255, 0.5);
+                box-shadow: 5px 5px 5px black;
+                border:1px solid black;
+                position:absolute;
+                left:50%;
+                top:20%;
+                text-align: center;
+            }
+            .zhuce span{display:block;}
+            .zhuce font{display:block;font-size: 30px;padding-bottom:20%;}
+            .fff{background:white;display:inline-block;height:5%;width:50%;}
+            
+            .zhuce button{display:inline-block;background:red;color:white;height:7%;width:50%;}
+            .zhuce .p{display:inline-block;margin-right: 20px;}
+            .zhuce span{margin-left: -39px;font-size: 15px;}
+            .dixia{width:100%;}
+            .dixia .oul{width:100%;list-style-type: none;height:240px;background:#EEEEEE;}
+            .oli{float:left;text-align: center;border-right: 1px solid #A9A9A9;height:185px;padding-right:20px;padding-left: 10px;}
+            .iul{list-style-type: none;}
+            .iul li{float:left;margin-left:50px;margin-right: 40px;line-height: 37px;}
+            .houzi1{position:absolute;top:10px !important;left:290px!important;}
+            .zhuce .forget{color:red;font-family: 楷体;text-align: right;margin-right: 60px;}
+            .zhuce .forget a{color:red}
+            .zhuce .forget a:hover{color:blue;transition: 2s;}
+            .xinyonghu {margin-top: -20px;}
+            .copyright{margin-left:25%;font-size: 12px;}
+            .copyright font{color:red;}
+            .privilege{font-size: 12px;}
+            .privilege a{color:#858AA3;}
+            .privilege a:hover{color:#f00;}
+
+        </style>
+    </head>
+    <body>
+        <div id="menu">
+            <ul>
+                <li><a href="静态页面-登陆.html">注册</a></li>
+                <li class="active"><a href="">登录</a></li>
+                <li><a href="">购物车</a></li>
+                <li><a href="主页.html">返回首页</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <img src="作业/images/logo_login.png" height="64" width="134" alt="">
+            <h1>多拿网酷炫改版</h1>
+            <ul>
+                <li>全场九毛九<br />
+                    <span>全场代金券一律九毛九，优惠大酬宾</span>
+                </li>
+                <li>线下消费返利<br />
+                    <span>线下消费，立即返利，实惠到家</span>
+                </li>
+                <li>非消费返利<br />
+                    <span>邀请好友、做任务轻松赠单免单消费</span>
+                </li>
+            </ul>
+            <div class="zhuce">
+                <img src="作业/images/xiaohouzi.png" height="161" width="148" class="houzi1">
+                <font>会员登陆</font>
+                <p class="p">账号：</p><input id="zhanghao" type="text" class="fff" placeholder="填写邮箱/手机号" /><br />
+                <span>填写邮箱/手机号</span><p class="forget"><a href="##">忘记密码</a></p>
+                
+                <p class="p">密码：</p><input id="mima" type="password" class="fff" placeholder="密码" /><br />
+                <span>填写6-10位密码</span>
+                <p class="p">验证码：</p><input id="yzm" type="text" class="fff" placeholder="输入验证码" style="width:30%" />
+                <img src="作业/images/yanzhenma.png" height="30px" width="70px" style="position:relative;margin-left:30px;padding-top:5px;top:14px;left:-10px">
+                <span>请输入验证码</span>
+                <input type="checkbox"  /><strong>记住我的账号</strong> <p class="forget xinyonghu"><a href="##">免费注册</a></p><br />
+                <button class="dldl">登录</button>
+
+            </div>
+        </div>
+        <div class="dixia">
+            <ul class="oul">
+                <li class="oli" style="margin-left:35px">
+                    
+                    <img src="作业/images/code.png" height="157" width="127" alt="" />
+                </li>
+                <li class="oli">
+                关注多拿网微博<br />
+                点击关注微博
+                    <img src="作业/images/xinlang.png" height="22" width="24" alt="" />
+
+                </li>
+                <li class="oli">
+                    <ul class="iul">
+                        <li><strong>公司信息</strong><br />
+                        联系我们<br />
+                        关于我们<br />
+                        加入我们</li>
+                        <li><strong>商务合作</strong><br />
+                        友情链接<br />
+                        商家入驻<br />
+                        </li>
+                        <li><strong>玩转多拿网</strong><br />
+                        免单消费<br />
+                        返利优惠<br />
+                        意见反馈<br />
+                        </li>
+                        <li><strong>用户帮助</strong><br />
+                        多拿保障<br />
+                        常见问题<br />
+                        隐私声明<br />
+                        用户协议<br />
+                        </li>
+                    </ul>
+                </li>
+                <li class="oli" style="border:none">
+                    <img src="作业/images/phone.png" height="185" width="217" alt="" />
+                </li>
+            </ul>
+            <img src="作业/images/logo1.gif" height="63" width="131" style="position:absolute;left:0;right:0;margin:0 auto;bottom:-440px">
+            <span class="copyright">版权所有 <font>多拿网</font> Copyright@2012 All Rights Reserved.IPC经营许可证号：粤B2-20130162
+            <img src="作业/images/baidu.png" height="20" width="20" alt="" />
+
+            </span> <span class="privilege"><a href="##">优惠券 代金券 优惠券的官方网站</a></span>
+        </div>
+        <script type="text/javascript">
+        var dz = location.href ;
+        
+        if(dz.indexOf("?")>0){
+             console.log(dz.split('?')[1]);
+             $("#zhanghao").val(dz.split('?')[1]);
+             
+         }
+$(".houzi1").hover(function() {
+    $(".houzi1").attr('src', '作业/images/xiaohouzi2.png');
+}, function() {
+    $(".houzi1").attr('src', '作业/images/xiaohouzi.png');
+});
+
+$("button").on("mouseover",function(event) {
+    $(".houzi1").attr('src', '作业/images/xiaohouzi2.png');
+    $("button").css({
+        "background": 'white',
+        "color": 'red',
+        "font-weight":"bold"
+    });
+    $("button").mouseout(function(event) {
+        $(".houzi1").attr('src', '作业/images/xiaohouzi.png');
+        $("button").css({
+        "background": 'red',
+        "color": 'white'
+
+    });
+    });
+});
+$(".dldl").click(function(event) {
+    if($("#zhanghao").val()=="13241398824"&& $("#mima").val()=="zou19941031"&& $("#yzm").val()=="zfcd"){
+location.href='主页.html'
+    }else{alert("重新输入信息")}
+});
+
+        </script>
+    </body>
+</html>
